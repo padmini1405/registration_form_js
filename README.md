@@ -53,6 +53,6 @@ registration-form/
 - On successful submission, a confirmation alert is displayed.
 
 # How to view
-You can access my website by visiting this [link]. Feel free to explore the content and get in touch.
+You can access my website by visiting this https://padmini1405.github.io/registration_form_js/  Feel free to explore the content and get in touch.
 
 Developed by Padmini K
