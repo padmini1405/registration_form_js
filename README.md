@@ -14,6 +14,7 @@ The form includes the following fields:
 - Email format validation
 - Password minimum length validation (6 characters)
 - Dynamic error messages
+- Submit button is disabled and enabled when there is no validation error
 - Success alert on valid form submission
 
 # Technologies Used
@@ -24,7 +25,7 @@ The form includes the following fields:
 
   # Validation Rules
  
-- Name Field
+Name Field
      - Must not be empty.
      - Displays an error message if left blank.
 Email Field
@@ -33,23 +34,12 @@ Email Field
 Password Field
      - Must contain at least 6 characters.
      - Displays an error message if the password is too short.
- 
-# Project Structure
-
-registration-form/
-│
-├── index.html
-├── script.js
-└── README.md
 
 # How It Works
 - The form listens to input and blur events.
 - Each field is validated in real-time.
 - Error messages are displayed dynamically below each field.
-- When submit button is clicked:
-   - Name is not empty
-   - Email format is valid
-   - Password has at least 6 characters
+- Submit button is disabled and enabled when there is no validation error.
 - On successful submission, a confirmation alert is displayed.
 
 # How to view
